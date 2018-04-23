@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +10,22 @@
     <script src="scripts/client.js"></script>
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-    <h1>Calculator</h1>
+    <div class="calculator">
+        <input id="inputOne" type="text" placeholder="Number" />
+        <input id="inputTwo" type="text" placeholder="Number" />
+    </div>
+    <select id="operators">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="/">/</option>
+        <option value="*">*</option>
+    </select>
+    <div class="result">
+        <button id="equalSign">=</button>
+        <input id="result" type="text" placeholder="Result" />
+    </div>
 </body>
+
 </html>
